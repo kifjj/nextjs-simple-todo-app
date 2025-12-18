@@ -47,7 +47,7 @@ export default function Home() {
     <div className="flex min-h-screen flex-col items-center justify-center p-4 bg-zinc-50 dark:bg-zinc-950">
       <Card className="w-full max-w-md shadow-lg">
         <CardHeader>
-          <CardTitle className="text-2xl font-bold text-center">Todo App</CardTitle>
+          <CardTitle className="text-2xl font-bold text-center">Todo App (Updated)</CardTitle>
         </CardHeader>
         <CardContent>
           <form onSubmit={addTodo} className="flex gap-2 mb-6">
