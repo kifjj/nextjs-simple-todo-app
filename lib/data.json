@@ -1,0 +1,138 @@
+{
+  "learningMaterials": [
+    {
+      "id": "react-basics",
+      "title": "React Basics",
+      "description": "Learn the fundamentals of React including components, props, and state.",
+      "questions": [
+        {
+          "id": 1,
+          "text": "What is the primary purpose of React?",
+          "options": ["To manage databases", "To build user interfaces", "To handle server-side logic", "To style web pages"],
+          "correctAnswer": "To build user interfaces"
+        },
+        {
+          "id": 2,
+          "text": "What is a React component?",
+          "options": ["A database table", "A reusable piece of UI", "A CSS selector", "A JavaScript library"],
+          "correctAnswer": "A reusable piece of UI"
+        },
+        {
+          "id": 3,
+          "text": "What hook is used to manage state in a functional component?",
+          "options": ["useEffect", "useContext", "useState", "useReducer"],
+          "correctAnswer": "useState"
+        },
+        {
+          "id": 4,
+          "text": "How do you pass data from a parent component to a child component?",
+          "options": ["Using state", "Using props", "Using effects", "Using refs"],
+          "correctAnswer": "Using props"
+        },
+        {
+          "id": 5,
+          "text": "What is the virtual DOM?",
+          "options": ["A direct copy of the real DOM", "A lightweight representation of the real DOM", "A CSS framework", "A browser extension"],
+          "correctAnswer": "A lightweight representation of the real DOM"
+        },
+        {
+          "id": 6,
+          "text": "Which command is used to create a new React app?",
+          "options": ["npm init react", "npx create-react-app", "npm start", "react-new-app"],
+          "correctAnswer": "npx create-react-app"
+        },
+        {
+          "id": 7,
+          "text": "What is the purpose of useEffect?",
+          "options": ["To handle side effects", "To create state", "To render components", "To define routes"],
+          "correctAnswer": "To handle side effects"
+        },
+        {
+          "id": 8,
+          "text": "What does JSX stand for?",
+          "options": ["JavaScript XML", "JavaScript Extension", "JSON XML", "Java Syntax Extension"],
+          "correctAnswer": "JavaScript XML"
+        },
+        {
+          "id": 9,
+          "text": "How do you define a class-based component?",
+          "options": ["class MyComponent extends React.Component", "function MyComponent()", "const MyComponent = () =>", "new React.Component()"],
+          "correctAnswer": "class MyComponent extends React.Component"
+        },
+        {
+          "id": 10,
+          "text": "What is the key prop used for in lists?",
+          "options": ["To style items", "To uniquely identify elements", "To store data", "To handle clicks"],
+          "correctAnswer": "To uniquely identify elements"
+        }
+      ]
+    },
+    {
+      "id": "nextjs-fundamentals",
+      "title": "Next.js Fundamentals",
+      "description": "Master the basics of Next.js, the React framework for the web.",
+      "questions": [
+        {
+          "id": 1,
+          "text": "What is Next.js?",
+          "options": ["A CSS library", "A React framework", "A database", "A testing tool"],
+          "correctAnswer": "A React framework"
+        },
+        {
+          "id": 2,
+          "text": "Which folder is used for routing in Next.js App Router?",
+          "options": ["src", "pages", "app", "routes"],
+          "correctAnswer": "app"
+        },
+        {
+          "id": 3,
+          "text": "What is Server-Side Rendering (SSR)?",
+          "options": ["Rendering on the client", "Rendering on the server for each request", "Rendering at build time", "Static site generation"],
+          "correctAnswer": "Rendering on the server for each request"
+        },
+        {
+          "id": 4,
+          "text": "How do you create a link in Next.js?",
+          "options": ["<a>", "<Link>", "<NavLink>", "<Route>"],
+          "correctAnswer": "<Link>"
+        },
+        {
+          "id": 5,
+          "text": "What is the purpose of the 'use client' directive?",
+          "options": ["To mark a Server Component", "To mark a Client Component", "To enable SSR", "To optimize images"],
+          "correctAnswer": "To mark a Client Component"
+        },
+        {
+          "id": 6,
+          "text": "What is Static Site Generation (SSG)?",
+          "options": ["Generating pages on request", "Generating pages at build time", "Client-side only rendering", "Dynamic rendering"],
+          "correctAnswer": "Generating pages at build time"
+        },
+        {
+          "id": 7,
+          "text": "Which function is used for data fetching in Server Components?",
+          "options": ["useEffect", "getStaticProps", "async/await in component", "useSWR"],
+          "correctAnswer": "async/await in component"
+        },
+        {
+          "id": 8,
+          "text": "What is the purpose of the Image component in Next.js?",
+          "options": ["To display images", "To optimize images automatically", "To edit images", "To upload images"],
+          "correctAnswer": "To optimize images automatically"
+        },
+        {
+          "id": 9,
+          "text": "How do you handle API routes in the App Router?",
+          "options": ["In api.js", "In route.ts files", "In pages/api", "In handlers/"],
+          "correctAnswer": "In route.ts files"
+        },
+        {
+          "id": 10,
+          "text": "What is the default rendering mode in the Next.js App Router?",
+          "options": ["Client Components", "Server Components", "Static Components", "Dynamic Components"],
+          "correctAnswer": "Server Components"
+        }
+      ]
+    }
+  ]
+}
